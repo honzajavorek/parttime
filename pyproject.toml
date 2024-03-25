@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "parttime"
+version = "0.1.0"
+description = "Calculates part time"
+authors = ["Honza Javorek <mail@honzajavorek.cz>"]
+license = "MIT"
+repository = "https://github.com/honzajavorek/parttime/"
+readme = "README.md"
+
+[tool.poetry.scripts]
+parttime = "parttime.__main__:main"
+
+[tool.poetry.dependencies]
+python = "3.12.*"
+click = "8.1.7"
+holidays = "0.45"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
