@@ -1,0 +1,2 @@
+# parttime
+Calculates part time
